@@ -1,0 +1,5 @@
+{
+  "env_var": "NLP_HW_DEEKSEEK_API_KEY",
+  "model": "deepseek-v4-flash",
+  "api_base": "https://api.deepseek.com"
+}
