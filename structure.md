@@ -325,11 +325,12 @@ CascadeSVG/
   +-- logger.py             # 结构化日志 + 计时器 + 文件日志
   +-- example.py            # 测试用例管理器
   +-- compare.py            # 对照组：单次 LLM 调用生成 SVG
-  +-- CLAUDE.md             # 项目说明
   +-- structure.md          # 本文档
+  +-- think.md              # 开发笔记
   +-- config/
   |   +-- api_key.json      # LLM API 配置
   +-- nodes/
+  |   +-- __init__.py
   |   +-- design_node.py       # 设计节点
   |   +-- translation_node.py  # 转译节点
   |   +-- template_node.py     # 模板节点
@@ -337,8 +338,6 @@ CascadeSVG/
   |   +-- generation_node.py   # 生成节点（核心）
   |   +-- correction_node.py   # 修正节点
   |   +-- renderer.py          # 渲染器
-  +-- outputs/              # SVG 输出 + 日志文件
-  +-- report/               # 实验报告
 ```
 
 ---
